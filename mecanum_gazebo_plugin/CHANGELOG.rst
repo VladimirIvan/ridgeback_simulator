@@ -2,6 +2,15 @@
 Changelog for package mecanum_gazebo_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2020-07-08)
+------------------
+* Changed to use a passive rolling ball as a model instead of modifying the friction
+* Removed the following parameters: 
+  fixedLinkName, rollerAngle, rollerFriction, rollerSkidFriction
+* Added axis parameter
+* Removed dependency on ODE
+* Added readme
+
 0.1.0 (2019-07-22)
 ------------------
 
